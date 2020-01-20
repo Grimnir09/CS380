@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ASG4 - Form</title>
+</head>
+
+<body>
+    <form>
+        
+        <label>Student:
+            <br>
+            <input type="text" name="student" />
+            <br>
+        </label>
+        <label>Course/Context:
+            <br>
+            <input type="text" name="course" />
+            <br>
+        </label>
+        <label>Evaluator:
+            <br>
+            <input type="text" name="evaluator" />
+            <br>
+        </label>
+        <label>Date:
+            <br>
+            <input type="text" name="date" />
+            <br>
+        </label>
+    </form>
+    <form action="#">
+        <p>
+            <label>
+                <input type="radio" name="presentation" value="1"> First Presentation
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="presentation" value="2"> Second Presentation
+            </label>
+        </p>
+        <button>Submit Form</button>
+        <hr>
+        <table border="1">
+            <tr>
+                <th>Critria</th>
+                <th> Beginning
+                    <p> 1 </p>
+                </th>
+                <th> Developing
+                    <p> 2</p>
+                </th>
+                <th> Proficient
+                    <p>3</p>
+                </th>
+                <th> Mastery
+                    <p>4</p>
+                </th>
+            </tr>
+            <tr>
+                <td>A. Content
+                    <p> Importance of topic, relevance, accuracy of facts, overall treatment of topic.</p>
+                </td>
+
+                <td>Topic lacks relevance on focus presentation contains multiple facts errors
+                    <p>
+                        <label>
+                            <input type="radio" name="content" value="1" />
+                        </label>
+                    </p>
+                </td>
+
+                <td>Topic would benefit from more focus presentation contains some facts errors or omissions
+                    <p>
+                        <label>
+                            <input type="radio" name="content" value="2" />
+                        </label>
+                    </p>
+                </td>
+
+                <td>Topic is adequately focused and relevant; major facts are accurate and generally complete
+                    <p>
+                        <label>
+                            <input type="radio" name="content" value="3" />
+                        </label>
+                    </p>
+                </td>
+
+                <td>Topic is lightly focused and relevant; presentation contains accurate information with no fact errors
+                    <p>
+                        <label>
+                            <input type="radio" name="content" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>B. Organizations/Clarity
+                    <p>Appropriate introduction, body, and conclusions; logical ordering of ideas; transitions between major points</p>
+                </td>
+                <td>Ideas are not presented in proper order, transitions are lacking between major ideas; several parts of presentation are wordy or unclear
+                    <p>
+                        <label>
+                            <input type="radio" name="organization" value="1" />
+                        </label>
+                    </p>
+                </td>
+
+                <td>
+                    Some ideas are presented in proper order, transitions are needed between some ideas; some parts of presentation are wordy or unclear
+                    <p>
+                        <label>
+                            <input type="radio" name="organization" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Most ideas are in proper order, adequate transitions between major ideas; presentation is generally clear and understandable
+                    <p>
+                        <label>
+                            <input type="radio" name="organization" value="3" />
+                        </label>
+                    </p>
+                </td>
+
+                <td>
+                    Ideas are in proper order, with effective transitions between major ideas; presentation is clear and concise
+                    <p>
+                        <label>
+                            <input type="radio" name="organization" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>C. Completeness
+                    <p>Level of detail, depth, appropriate length, adequate background of information</p>
+                </td>
+                <td>
+                    Presentation does not provide adequate depth; key details are omitted or underdeveloped; presentation is too short or too long.
+                    <p>
+                        <label>
+                            <input type="radio" name="completeness" value="1" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Additional depth needed in places; important information omitted or not fully developed; presentation is too long or too short
+                    <p>
+                        <label>
+                            <input type="radio" name="completeness" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Presentation provides adequate depth; few needed details are omitted; major ideas are adequately developed; presentation is within specified length
+                    <p>
+                        <label>
+                            <input type="radio" name="completeness" value="3" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Presentation provides good depth and detail; ideas are well developed; facts have adequate background;presentation is within specified length
+                    <p>
+                        <label>
+                            <input type="radio" name="completeness" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>D. Grammer/Mechanics
+                    <p>Correct grammar and usage that is appropriate for audience(s)
+                </td>
+                <td>
+                    Presentation contains several major grammar/usage errors; sentences are long, incomplete or contain excessive jargon
+                    <p>
+                        <label>
+                            <input type="radio" name="grammar" value="1" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Presentation may contain some grammar or sentence errors; sentences may contain jargon or are too long or hard to follow
+                    <p>
+                        <label>
+                            <input type="radio" name="grammar" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Presentation has no serious grammar errors; sentences are mostly jargon-free complete and understandable
+                    <p>
+                        <label>
+                            <input type="radio" name="grammar" value="3" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Presentation contains no grammar errors; sentences are free of jargon; complete and easy to understand
+                    <p>
+                        <label>
+                            <input type="radio" name="grammar" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E. Documentation
+                    <p>Proper support and sourcing for major ideas, inclusion of visual aids that support message
+                </td>
+
+                <td>
+                    Little or no message support provided for major ideas; visual aids are missing or inadequate; little or no sourcing provided
+                    <p>
+                        <label>
+                            <input type="radio" name="documentation" value="1" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Some messages support provided by facts and visual aids sourcing may be outdated or thin, visual aid needs work
+                    <p>
+                        <label>
+                            <input type="radio" name="documentation" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Adequate message support provided for key concepts by facts and visual aids; sourcing is generally adequate and current
+                    <p>
+                        <label>
+                            <input type="radio" name="documentation" value="3" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Effective message supports provided in the form of facts and visual aids; sourcingis current and supports major ideas.
+                    <p>
+                        <label>
+                            <input type="radio" name="documentation" value="4" />
+                        </label>
+                    </p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    F. Delivery
+                    <p>Adequate volume appropriate pace. diction, personal appearance, enthusiasm/energy, posture, effective use of visual aids</p>
+                </td>
+
+                <td>
+                    Low volume or energy; pace too slow or fast; poor diction; distracting gestures or posture; unprofessional appearance; visual aids poorly used
+                    <p>
+                        <label>
+                            <input type="radio" name="delivery" value="1" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    More volume/energy needed at times; pace too slow or too fast; some distracting gestures; professional appearance; visual aids used adequately
+                    <p>
+                        <label>
+                            <input type="radio" name="delivery" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Adequate volume and energy; generally good pace and diction; few or no distracting gestures; professional appearance; visual aids used adequately
+                    <p>
+                        <label>
+                            <input type="radio" name="delivery" value="3" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Good volume and energy; proper pace and diction; avoidance of distracting gestures; professional appearance; visual aids used effectively
+                    <p>
+                        <label>
+                            <input type="radio" name="delivery" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    G. Interactions
+                    <p>Adequate eye contact with audience, ability to listen and/or answer questions</p>
+                </td>
+                <td>
+                    Little or no eye contact with audience; poor listening skills; uneasiness or inability to answer audience questions
+                    <p>
+                        <label>
+                            <input type="radio" name="interactions" value="1" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Additional eye contact needed at times; better listening skills needed; some difficulty answering audience questions.
+                    <p>
+                        <label>
+                            <input type="radio" name="interactions" value="2" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Fairly food eye contact with audience; displays ability to listen; provides adequate answers to audience questions
+                    <p>
+                        <label>
+                            <input type="radio" name="interactions" value="3" />
+                        </label>
+                    </p>
+                </td>
+                <td>
+                    Good eye contact with audience; excellent listening skills; answers audience questions with authority and accuracy
+                    <p>
+                        <label>
+                            <input type="radio" name="interactions" value="4" />
+                        </label>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
