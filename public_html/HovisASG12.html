@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 12 - Art Page</title>
+     <!--Bootstrap Reqs-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body style="margin-left: 100px; margin-right: 100px;">
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="nav navbar-nav mr-auto">
+      <a class="navbar-brand" href="#">Welcome to Art Store Login or Create a new account</a>
+    </ul>
+    <ul class="navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-user"></i> My Account<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-gift"></i> Wishlist</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Shopping Cart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-arrow-right"></i> Checkout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+   
+   <div id="logoRow">
+     <div class="row">
+       <div class="col align-self-start">
+        <h1>Art Store</h1> 
+       </div>
+      <div class="col align-self-end">
+        <form style="float: right;">
+          <label for="search">Search</label>
+          <input type="text" placeholder="Search" name="search">
+          <button  type="submit"><i class="fa fa-search"></i></button>
+        </form> 
+      </div>
+     </div>
+   </div>  <!-- end logoRow -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <ul class="nav navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Art Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Artists</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Specials
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Special 1</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Special 2</a>
+      </div>
+    </li>
+   </ul>
+  </nav>
+</header>
+    <div class="row">
+      <div class="col">
+        <h2>Self-portrait in a Straw Hat</h2>
+        <p>By <a href="#">Louise Elisabeth Lebrun</a></p>
+      </div>
+      <div class="col">
+        
+      </div>
+    
+    </div>
+
+    <div class="row">
+      <img src="images/art/113010.jpg" class="img-thumbnail img-responsive" alt="Self-portrait in a Straw Hat"/>
+      <div class="col-6">
+        <p>
+          The painting appears, after cleaning, to be an autograph replica of a picture, the original of which was painted in Brussels in 1782 in free imitation of Rubens's 'Chapeau de Paille', which LeBrun had seen in Antwerp. It was exhibited in Paris in 1782 at the Salon de la Correspondance. LeBrun's original is recorded in a private collection in France. 
+        </p>
+        <p id="price" style="color: red;">$700</p>
+        <div >
+            <button type="button" >
+            <a href="#"><i class="fa fa-gift"></i> Add to Wish List</a>  
+            </button>
+            <button  type="button" >
+            <a href="#"><i class="fa fa-shopping-cart"></i> Add to Shopping Cart</a>
+            </button>
+        </div>
+        <div class="container rounded bg-light mt-1">
+          <h3>Product Details</h3>
+          <table class="table" >
+              <tr>
+                  <th>Date:</th>
+                  <td>1782</td>
+              </tr>
+              <tr>
+                  <th>Medium:</th>
+                  <td>Oil on canvas</td>
+              </tr>  
+              <tr>
+                  <th>Dimensions:</th>
+                  <td>98cm x 71cm</td>
+              </tr> 
+              <tr>
+                  <th>Home:</th>
+                  <td><a href="#">National Gallery, London</a></td>
+              </tr>  
+              <tr>
+                  <th>Genres:</th>
+                  <td><a href="#">Realism</a>, <a href="#">Rococo</a></td>
+              </tr> 
+              <tr>
+                  <th>Subjects:</th>
+                  <td><a href="#">People</a>, <a href="#">Arts</a></td>
+              </tr>     
+          </table>
+      </div>               
+      </div>
+      <div class="col">
+        <div class="card bg-light">
+          <div class="card-header">
+            <h3 class="card-title">Cart</h3>
+          </div>
+          <div class="card-body">
+            <a  href="#">
+              <img  src="images/art/tiny/116010.jpg" alt="..." width="32">
+              </a>
+              <p ><a href="#">Artist Holding a Thistle</a></p>
+      
+              <a  href="#">
+              <img src="images/art/tiny/113010.jpg" alt="..." width="32">
+              </a>
+              <p ><a href="#">Self-portrait in a Straw Hat</a></p>
+      
+              <strong class="cartText" style="color: red ;">Subtotal: <span >$1200</span></strong>
+              <div>
+              <button class="btn btn-primary" type="button" ><i class="fa fa-info"></i> Edit</button>
+              <button class="btn btn-primary" type="button" ><i class="fa fa-arrow-right"></i> Checkout</button>   
+              </div>
+          </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="row">
+      <h3>Similar Products </h3>  
+    </div>
+    <div class="row">
+      <div class="card" style="width: 20rem;">
+        <img src="images/art/thumbs/116010.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a><h5 class="card-title">Artist Holding a Thistle</h5></a>
+          <a href="#" class="btn btn-primary"><i class="fa fa-info"></i> View</a>
+          <a href="#" class="btn btn-success"><i class="fa fa-gift"></i>  Wish</a>
+          <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="images/art/thumbs/120010.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a><h5 class="card-title">Portrait of Eleanor of Toledo</h5></a>
+          <a href="#" class="btn btn-primary"><i class="fa fa-info"></i> View</a>
+          <a href="#" class="btn btn-success"><i class="fa fa-gift"></i>  Wish</a>
+          <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="images/art/thumbs/107010.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a><h5 class="card-title">Madame de Pompadour</h5></a>
+          <a href="#" class="btn btn-primary"><i class="fa fa-info"></i> View</a>
+          <a href="#" class="btn btn-success"><i class="fa fa-gift"></i>  Wish</a>
+          <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="images/art/thumbs/106020.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a><h5 class="card-title">Girl with a Pearl Earring</h5></a>
+          <a href="#" class="btn btn-primary"><i class="fa fa-info"></i> View</a>
+          <a href="#" class="btn btn-success"><i class="fa fa-gift"></i>  Wish</a>
+          <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+      </div>
+    
+      <div class="col">
+        <div class="card" >
+          <div class="card-header">
+            <h3 >Popular Artists</h3>
+          </div>
+          <ul class="list-group list-group-flush">
+             <li class="list-group-item"><a href="#">Caravaggio</a></li>
+             <li class="list-group-item"><a href="#">Cezanne</a></li>
+             <li class="list-group-item"><a href="#">Matisse</a></li>
+             <li class="list-group-item"><a href="#">Michelangelo</a></li>
+             <li class="list-group-item"><a href="#">Picasso</a></li>
+             <li class="list-group-item"><a href="#">Raphael</a></li>
+             <li class="list-group-item"><a href="#">Van Gogh</a></li>
+          </ul>
+       </div>
+    </div>           
+    </div>              
+    
+    <div class="row">
+      <div class="col-10"></div>
+      <div class="col">
+        <div class="card" >
+          <div class="card-header">
+            <h3 >Popular Genres</h3>
+          </div>
+               <ul class="list-group list-group-flush" >
+                  <li class="list-group-item"><a href="#">Baroque</a></li>
+                  <li class="list-group-item"><a href="#">Cubism</a></li>
+                  <li class="list-group-item"><a href="#">Impressionism</a></li>
+                  <li class="list-group-item"><a href="#">Renaissance</a></li>
+               </ul>
+         </div>
+      </div>
+    </div>
+
+
+<footer class="bg-dark rounded" style="color: white;">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <h4><i class="fa fa-info"></i> About Us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+      </div>
+
+      <div class="col-3">
+        <h4><i class="fa fa-phone"></i> Customer Service</h4>
+        <ul >
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+        </ul> 
+      </div> 
+
+      <div class="col-3">
+        <h4><i class="fa fa-shopping-cart"></i> Just Ordered</h4>
+        <div>
+          <a  href="#">
+            <img src="images/art/tiny/13030.jpg" alt="...">
+          </a>
+            <p> <a href="#">Arrangement in Grey and Black</a></p>
+            <em>5 minutes ago</em>
+        </div>
+        <div >
+          <a  href="#">
+            <img  src="images/art/tiny/116010.jpg" alt="...">
+          </a>
+            <p ><a href="#">Artist Holding a Thistle</a></p>
+            <em>11 minutes ago</em>
+        </div>   
+        <div>
+          <a class="pull-left" href="#">
+            <img src="images/art/tiny/113010.jpg" alt="...">
+          </a>
+          <p class="similarTitle"><a href="#">Self-portrait in a Straw Hat</a></p>
+          <em>23 minutes ago</em>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4><i class="fa fa-envelope"></i> Contact us</h4>
+        <form >
+            <label  for="name">Name</label>
+            <input type="text" name="email" placeholder="Enter name ..." style="float: right;">
+            <label for="email">Email</label>
+            <input type="email"  name="email" placeholder="Enter email ..." style="float: right;">
+            <label for="email">Message</label>
+            <textarea  rows="3" placeholder="Enter message ..." style="float: right;"></textarea>
+            <button class="btn btn-primary" type="submit" style="position:relative;">Submit</button>
+        </form>  
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="" id="copyrightRow">
+        <p>All images are copyright to their owners. This is just a hypothetical site
+        <span style="float: right;">&copy; 2014 Copyright Art Store</span></p>
+    </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
