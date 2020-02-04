@@ -24,7 +24,7 @@ function getTemp() {
     }
     // if all are checks are complete do our conversion and call our function again
     else {
-        alert(input + 'F is ' + ((input-32)*(5/9)).toFixed(2) + 'C')
+        alert(input + 'F is ' + ((input-32)*(5/9)).toFixed(2) + 'C');
         getTemp();
     }
 }
