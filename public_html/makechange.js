@@ -1,7 +1,7 @@
 // Get element ids
 var $ = function(id) {
     return document.getElementById(id);
-}
+};
 
 var makeChange = function() {
     //Trunicate decimals by using tofixed
@@ -14,7 +14,7 @@ var makeChange = function() {
             $("quarters").value = quarters;
         }
         else {
-            $("quarters").value = null
+            $("quarters").value = null;
         }
 
         if (cents >= 10) {
@@ -23,7 +23,7 @@ var makeChange = function() {
             $("dimes").value = dimes;
         }
         else {
-            $("dimes").value = null
+            $("dimes").value = null;
         }
 
         if (cents >= 5) {
@@ -33,7 +33,7 @@ var makeChange = function() {
 
         }
         else {
-            $("nickels").value = null
+            $("nickels").value = null;
         }
 
         if (cents >= 1) {
@@ -41,12 +41,12 @@ var makeChange = function() {
             $("pennies").value = pennies;
         }
         else {
-            $("pennies").value = null
+            $("pennies").value = null;
         }
     } 
     else 
     {
         alert("Invalid input " + cents + " change must be between 0 and 99");
     }
-}
+};
 $("cal").addEventListener("click", makeChange);
