@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8"/>
+  <title>ASG14 - Make Change</title>
+  <!--Bootstrap Reqs-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- The year is 2020 and still no support for inline forms -->
+<style>
+  input {
+    display: inline-block;
+    float: left;
+  }
+
+  label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+</style>
+
+</head>
+
+<body>
+    <h2>Change Calculator</h2>
+        <label>Enter amount of change due (0-99)</label>
+        <input type="text" id="cents" />
+        <input type="button" value="Make Change" name="cal" id="cal" /><br><br>
+        <label>Quarters:</label>
+        <input type="text" id="quarters" disabled><br>
+        <label>Dimes:</label>
+        <input type="text" id="dimes" disabled><br>
+        <label>Nickels:</label>
+        <input type="text" id="nickels" disabled><br>
+        <label>Pennies:</label>
+        <input type="text" id="pennies" disabled><br>
+</body>
+
+<!-- load js -->
+<script src="makeChange.js"></script>
