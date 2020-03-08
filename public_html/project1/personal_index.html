@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="personal.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav(
+				{
+					prependTo:'.navbar'
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="bodyDiv">
+		<header>
+			<div class="header">
+				<img class="brandImage" src="pumpkin.gif" alt="picture of a pumpkin">
+				<h1 class="storeTitle">The Halloween Store</h1>
+				<h2>For the little Goblin in all of us!</h2>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product_index.html">Product List</a></li>
+				<li><a class="active" href="#">Personal</a></li>
+				<li class="dropdown"><a href="javascript:void(0)">Decorating Ideas</a>
+				<div class="dropdown-content">
+					<a href="#">Outdoor</a>
+					<a href="#">Indoor</a>
+					<a href="#">Table</a>
+					<a href="#">Treats</a>
+				</div>
+				</li>
+				<li><a href="email.html">Join Email</a></li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<div class="column Left">
+				<ul class="navLeft">
+					<li><a href="#"><b>Pictures</b></a></li>
+					<li><a href="#"><b>Home Videos</b></a></li>
+					<li><a href="#"><b>Haunted Houses</b></a></li>
+					<li><a href="#"><b>Scary Stories</b></a></li>
+				</ul>
+			</div>
+			<div class="column Right">
+				<div class="content">
+					<h1>Here is my favorite haunted house!</h1>
+					<div class="videocontainer">
+						<video src="hobbsgrove.mp4" controls></video>
+					</div>
+					<article>
+					<h2>This year's story:</h2>
+					<h2>"The Benevolent Goblin"</h2>
+					<small>by Gesta Romanorum</small>
+						<p>
+								In the kingdom of England there is a hillock in the midst of a dense wood. Thither in old days knights and their followers were wont to repair when tired and thirsty after the chase. When one of their number called out, "I thirst!" there immediately started up a Goblin with a cheerful countenance, clad in a crimson robe, and bearing in his outstretched hand a large drinking-horn richly ornamented with gold and precious jewels, and full of the most delicious, unknown beverbeverage. <br> <br>
+
+								The Goblin presented the horn to the thirsty knight, who drank and instantly felt refreshed and cool. After the drinker had emptied the horn, the Goblin offered a silken napkin to wipe the mouth. Then, without waiting to be thanked, the strange creature vanished as suddenly as he had come. <br> <br>
+
+								Now once there was a knight of churlish nature, who was hunting alone in those parts. Feeling thirsty and fatigued, he visited the hillock and cried out: <br> <br>
+
+								"I thirst!" <br> <br>
+
+								Instantly the Goblin appeared and presented the horn. <br> <br>
+
+								When the knight had drained it of its delicious beverage, instead of returning the horn, he thrust it into his bosom, and rode hastily away. <br>
+
+								He boasted far and wide of his deed, and his feudal lord hearing thereof caused him to be bound and cast into prison; then fearing lest he, too, might become partaker in the theft and ingratitude of the knight, the lord presented the jeweled horn to the King of England, who carefully preserved it among the royal treasures. But never again did the benevolent Goblin return to the hillock in the wood. <br> <br>
+						</p>
+					</article>
+				
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>© 2016 Ben Murach</p>
+			</div>
+		</footer>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="email.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav(
+				{
+					prependTo:'.navbar'
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="bodyDiv">
+		<header>
+			<div class="header">
+				<img class="brandImage" src="pumpkin.gif" alt="picture of a pumpkin">
+				<h1 class="storeTitle">The Halloween Store</h1>
+				<h2>For the little Goblin in all of us!</h2>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul id="menu">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="#">Product List</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="dropdown"><a href="javascript:void(0)">Decorating Ideas</a>
+				<div class="dropdown-content">
+					<a href="#">Outdoor</a>
+					<a href="#">Indoor</a>
+					<a href="#">Table</a>
+					<a href="#">Treats</a>
+				</div>
+				</li>
+				<li><a class="active" href="email.html">Join Email</a></li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<div class="column Left">
+				<ul class="navLeft">
+					<li><a href="#"><b>Props</b></a></li>
+					<li><a href="#"><b>Costumes</b></a></li>
+					<li><a href="#"><b>Special FX</b></a></li>
+					<li><a href="#"><b>Masks</b></a></li>
+				</ul>
+			</div>
+			<div class="column Right">
+				<form>
+					<div class="contentForm">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" required />
+						<label for="lname">Last Name:</label>
+						<input type="text" id="lname" required><br>
+						<label for="email">Email:</label>
+						<input type="text" id="email" required><br>
+						<label for="zip">Zip Code:</label>
+						<input pattern="[0-9]{5}" placeholder="Optional But Appreciated: 99999" type="text" id="zip" title="Zip code must be 5 digits only.">
+						<br>
+						<br>	
+						<br>
+						<br>
+						<br>
+						<br>
+						<button type="submit" onclick="" formaction="subscribe.html">Subscribe</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>© 2016 Ben Murach</p>
+			</div>
+		</footer>		
+	</div>
+</body>
+</html>

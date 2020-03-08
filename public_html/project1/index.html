@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="main_rwd.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav(
+				{
+					prependTo:'.navbar'
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="bodyDiv">
+		<header>
+			<div class="header">
+				<img class="brandImage" src="pumpkin.gif" alt="picture of a pumpkin">
+				<h1 class="storeTitle">The Halloween Store</h1>
+				<h2>For the little Goblin in all of us!</h2>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul id="menu">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="#">Product List</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="dropdown"><a href="javascript:void(0)">Decorating Ideas</a>
+				<div class="dropdown-content">
+					<a href="#">Outdoor</a>
+					<a href="#">Indoor</a>
+					<a href="#">Table</a>
+					<a href="#">Treats</a>
+				</div>
+				</li>
+				<li><a href="#">Join Email</a></li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<div class="column Left">
+				<ul class="navLeft">
+					<li><a href="#"><b>Props</b></a></li>
+					<li><a href="#"><b>Costumes</b></a></li>
+					<li><a href="#"><b>Special FX</b></a></li>
+					<li><a href="#"><b>Masks</b></a></li>
+				</ul>
+			</div>
+			<div class="column Right">
+				<div class="content">
+					<h1 class="welcomeHeader">Welcome to my site.</h1>
+					<h1>Please come in and stay awhile.</h1>
+			
+					<p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
+					<p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
+			
+					<h2>Product of the week</h2>
+					<img src="cat1.jpg" alt="A picture of a cat?">
+					<br>
+					<a href="#" >20" Deranged cat</a>
+					<h3>My guarantee</h3>
+			
+					If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>© 2016 Ben Murach</p>
+			</div>
+		</footer>		
+	</div>
+</body>
+</html>

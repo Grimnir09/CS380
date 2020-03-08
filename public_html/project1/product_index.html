@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="summary.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav(
+				{
+					prependTo:'.navbar'
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="bodyDiv">
+		<header>
+			<div class="header">
+				<img class="brandImage" src="pumpkin.gif" alt="picture of a pumpkin">
+				<h1 class="storeTitle">The Halloween Store</h1>
+				<h2>For the little Goblin in all of us!</h2>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="product_index.html">Product List</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="dropdown"><a href="javascript:void(0)">Decorating Ideas</a>
+				<div class="dropdown-content">
+					<a href="#">Outdoor</a>
+					<a href="#">Indoor</a>
+					<a href="#">Table</a>
+					<a href="#">Treats</a>
+				</div>
+				</li>
+				<li><a href="#">Join Email</a></li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<div class="column Left">
+				<ul class="navLeft">
+					<li><a href="#"><b>Props</b></a></li>
+					<li><a href="#"><b>Costumes</b></a></li>
+					<li><a href="#"><b>Special FX</b></a></li>
+					<li><a href="#"><b>Masks</b></a></li>
+				</ul>
+			</div>
+			<div class="column Right">
+				<div class="content">
+				 <table class="productTable">
+					 <tr>
+						 <td class="tableTitle" colspan="3">
+							<h1>Product List</h1>
+						 </td>
+					 </tr>
+					 <tr>
+						<th class="catCategory">Category</th>
+						<th class="descriptionCategory">Description</th>
+						<th class="priceCategory">Price</th>
+					 </tr>
+					 
+					 <tr>
+						 <td rowspan="5" class="tablecategory">Props</td>
+						 <td class="tableDescription"><a href="cat.html">20" Deranged cat</a></td>
+						 <td class="tablePrice">$39.99</td>
+					 </tr>
+					 <tr>
+						<td class="tableDescription"><a href="#product">Flying bats</a></td>
+						<td class="tablePrice">$14.99</td>
+					</tr>
+					<tr>
+						<td class="tableDescription"><a href="#product">16" Ugly rat</a></td>
+						<td class="tablePrice">$14.99</td>
+					</tr>
+					<tr>
+						<td class="tableDescription"><a href="#product">20" Uglier rat</a></td>
+						<td class="tablePrice">19.99</td>
+					</tr>
+					<tr>
+						<td class="tableDescription"><a href="#product">Plastic Skeleton</a></td>
+						<td class="tablePrice">$12.50</td>
+					</tr>
+					<tr>
+						<td rowspan="3" class="tablecategory">Costumes</td>
+						<td class="tableDescription"><a href="#product">Austin Powers</a></td>
+						<td class="tablePrice">$79.50</td>
+					</tr>
+					<tr>
+					   <td class="tableDescription"><a href="#product">Frankstein</a></td>
+					   <td class="tablePrice">$49.99</td>
+				   </tr>
+				   <tr>
+					   <td class="tableDescription"><a href="#product">Martian</a></td>
+					   <td class="tablePrice">$69.99</td>
+				   </tr>
+				   <tr>
+						<td rowspan="3" class="tablecategory">Special Effects</td>
+						<td class="tableDescription"><a href="#product">Fog Machine</a></td>
+						<td class="tablePrice">$34.99</td>
+					</tr>
+					<tr>
+				   		<td class="tableDescription"><a href="#product">Fog juice</a></td>
+				   		<td class="tablePrice">$9.99</td>
+			   		</tr>
+			   		<tr>
+				   		<td class="tableDescription"><a href="#product">Mini strobe light</a></td>
+				   		<td class="tablePrice">$14.99</td>
+			   		</tr>
+					   <tr>
+						<td rowspan="2" class="tablecategory">Masks</td>
+						<td class="tableDescription"><a href="#product">Freddy</a></td>
+						<td class="tablePrice">$40.50</td>
+					</tr>
+					<tr>
+				   		<td class="tableDescription"><a href="#product">Darth Vader</a></td>
+				   		<td class="tablePrice">$124.50</td>
+			   		</tr>   
+				 </table>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>© 2016 Ben Murach</p>
+			</div>
+		</footer>		
+	</div>
+</body>
+</html>

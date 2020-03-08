@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="product.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav(
+				{
+					prependTo:'.navbar'
+				}
+			);
+		});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="bodyDiv">
+		<header>
+			<div class="header">
+				<a href="index.html"><img class="brandImage" src="pumpkin.gif" alt="picture of a pumpkin"></a>
+				<h1 class="storeTitle">The Halloween Store</h1>
+				<h2>For the little Goblin in all of us!</h2>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Product List</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="dropdown"><a href="javascript:void(0)">Decorating Ideas</a>
+				<div class="dropdown-content">
+					<a href="">Outdoor</a>
+					<a href="#">Indoor</a>
+					<a href="#">Table</a>
+					<a href="#">Treats</a>
+				</div>
+				</li>
+				<li><a href="#">Join Email</a></li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<div class="column Left">
+				<ul class="navLeft">
+					<li><a href="#"><b>Props</b></a></li>
+					<li><a href="#"><b>Costumes</b></a></li>
+					<li><a href="#"><b>Special FX</b></a></li>
+					<li><a href="#"><b>Masks</b></a></li>
+				</ul>
+			</div>
+			<div class="column Middle">
+				<div class="content">
+					<h1>20" Deranged cat</h1>
+					<img src="cat1.jpg" alt="picture of a cat">
+					<p>This cat provides its own light and is perfect
+						for backyard haunting.
+						<br>
+						<b>Price:</b> 19.99
+					</p>
+				</div>
+			</div>
+			<div class="column Right">
+				<div class="sidebar">
+					<p><b>Customers who bought this product also bought:</b></p>
+					<ul>
+						<li>
+							<img src="flying_bats.jpg" alt="picture of bat">	
+						</li>
+						<li>
+							<a href="#">Flying Bats</a>
+						</li>
+						<li>
+							<img src="rat1.jpg" alt="picture of rat">
+						</li>
+						<li>
+							<a href="#">16" Ugly Rat</a>
+						</li>
+						<li>
+							<img src="strobe1.jpg" alt="picture of strobe light">
+						</li>
+						<li>
+							<a href="#">Mini Strobe Light</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<p>© 2016 Ben Murach</p>
+			</div>
+		</footer>		
+	</div>
+</body>
+</html>
