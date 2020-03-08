@@ -5,7 +5,6 @@
     // get the rest of the data for the form
     $password = $_POST['password'];
     $phoneNumber = $_POST['phone'];
-    $specialOffers = $_POST['wants_updates'];
     $contactVia = $_POST['contact_via'];
     $comments = $_POST['comments'];
     // for the heard_from radio buttons,
@@ -27,6 +26,8 @@
 
 
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
