@@ -26,8 +26,6 @@
 
 
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>

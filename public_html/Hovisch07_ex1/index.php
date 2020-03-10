@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
     <title>Account Sign Up</title>
     <link rel="stylesheet" type="text/css" href="main.css"/>
