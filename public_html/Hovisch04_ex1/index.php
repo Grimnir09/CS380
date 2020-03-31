@@ -39,7 +39,7 @@ $products = $statement3->fetchAll();
 $statement3->closeCursor();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <!-- the head section -->
 <head>
